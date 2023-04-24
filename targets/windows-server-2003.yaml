@@ -1,0 +1,5 @@
+name: Windows Server 2003
+eol: 2015-07-14
+info: https://docs.microsoft.com/en-us/lifecycle/products/internet-information-services-iis
+rules:
+  - Microsoft-IIS/6.0

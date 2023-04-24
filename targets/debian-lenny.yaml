@@ -1,0 +1,6 @@
+name: Debian Lenny
+eol: 2012-02-06
+info: https://wiki.debian.org/DebianReleases
+rules:
+  - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny16 with Suhosin-Patch mod_ssl/2.2.9 OpenSSL/0.9.8o
+  - Apache/2.2.9 (Debian)

@@ -1,0 +1,22 @@
+{
+  "name": "eol-rules",
+
+  "build": {
+    "dockerfile": "./Dockerfile",
+    "context": "."
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+
+  "postStartCommand": "npm ci",
+
+  "remoteUser": "node"
+}

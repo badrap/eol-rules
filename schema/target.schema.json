@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "OS name",
+      "description": "A human-readable name for the operating system."
+    },
+    "eol": {
+      "type": "string",
+      "format": "date"
+    },
+    "info": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://",
+      "title": "Information URI",
+      "description": "Prefer HTTPS URIs instead of plain HTTP."
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": ["name", "eol", "rules"]
+}

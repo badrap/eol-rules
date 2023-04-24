@@ -1,0 +1,5 @@
+name: Windows Server 2008 R2 or Windows 7 (Unless ESU)
+eol: 2020-01-14
+info: https://docs.microsoft.com/en-us/lifecycle/products/internet-information-services-iis
+rules:
+  - Microsoft-IIS/7.5

@@ -1,0 +1,5 @@
+name: Centos 5
+eol: 2017-03-31
+info: https://centosfaq.org/centos/centos-5-end-of-life/
+rules:
+  - SSH-2.0-OpenSSH_4.3

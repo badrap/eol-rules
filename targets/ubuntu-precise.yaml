@@ -1,0 +1,5 @@
+name: Ubuntu Precise
+eol: 2017-04-28
+info: https://wiki.ubuntu.com/Releases
+rules:
+  - Apache/2.2.22 (Ubuntu)

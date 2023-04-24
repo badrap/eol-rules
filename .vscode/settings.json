@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "explorer.excludeGitIgnore": true,
+  "yaml.format.enable": false,
+  "yaml.validate": true,
+  "yaml.schemas": {
+    "./schema/target.schema.json": "/targets/*.yaml"
+  },
+  "[json][jsonc][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript][typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
+}
