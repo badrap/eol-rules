@@ -2,7 +2,7 @@
 
 The collected rules are published to GitHub pages on every push to the `main` branch:
 
-- https://badrap.github.io/eol-rules/rules.json - A JSON collection of rules.
+- https://badrap.github.io/eol-rules/eol-rules.json - A JSON collection of rules.
 
 ## Getting Started
 
