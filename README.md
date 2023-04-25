@@ -28,3 +28,25 @@ npm run validate
 ```
 
 The validation uses the [./schema/target.schema.json](./schema/target.schema.json) file to check the basic structure of each target YAML file.
+
+## Trying out the targets & rules
+
+There are scripts for testing out the current set of targets and their rules, either with direct banner data or matching them to Shodan results.
+
+### Testing direct banner data
+
+```sh
+npm -s run try:banner 'BANNER TEXT GOES HERE'
+```
+
+For example:
+
+```sh
+npm -s run try:banner 'Apache/2.2.22 (Debian)'
+```
+
+### Testing Shodan results
+
+```sh
+SHODAN_API_KEY='*****************' npm -s run try:shodan 192.168.0.0
+```
