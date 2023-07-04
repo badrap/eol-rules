@@ -2,5 +2,5 @@ name: Debian Wheezy
 eol: 2018-05-31
 info: https://wiki.debian.org/DebianReleases
 rules:
-  - SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+  - SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7
   - Apache/2.2.22 (Debian)
