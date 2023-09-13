@@ -1,0 +1,5 @@
+name: Windows Server 2012
+eol: 2023-10-10
+info: https://docs.microsoft.com/en-us/lifecycle/products/internet-information-services-iis
+rules:
+  - Microsoft-IIS/8.0
