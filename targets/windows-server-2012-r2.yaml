@@ -1,5 +1,5 @@
-name: Windows Server 2008 R2 or Windows 7
-eol: 2020-01-14
+name: Windows Server 2012 R2 (unless ESU) or Windows 8.1
+eol: 2023-10-10
 info: https://docs.microsoft.com/en-us/lifecycle/products/internet-information-services-iis
 rules:
-  - Microsoft-IIS/7.5
+  - Microsoft-IIS/8.5
