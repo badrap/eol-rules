@@ -1,0 +1,5 @@
+name: Rocky Linux 9.0
+eol: 2022-11-26
+info: https://wiki.rockylinux.org/rocky/version/
+rules:
+  - Apache/2.4.51 (Rocky Linux) OpenSSL/3.0.1

@@ -1,0 +1,5 @@
+name: Fedora 37
+eol: 2023-12-05
+info: https://docs.fedoraproject.org/en-US/releases/eol/
+rules:
+  - Apache/2.4.54 (Fedora Linux)

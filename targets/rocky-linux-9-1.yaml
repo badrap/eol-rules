@@ -1,0 +1,5 @@
+name: Rocky Linux 9.1
+eol: 2023-05-16
+info: https://wiki.rockylinux.org/rocky/version/
+rules:
+  - Apache/2.4.53 (Rocky Linux) OpenSSL/3.0.1
