@@ -17,8 +17,8 @@ if (!apiKey) {
 
 fetch(
   `https://api.shodan.io/shodan/host/${encodeURIComponent(
-    ip
-  )}?key=${encodeURIComponent(apiKey)}`
+    ip,
+  )}?key=${encodeURIComponent(apiKey)}`,
 )
   .then(
     (res) => {
@@ -28,7 +28,7 @@ fetch(
       if (!res.ok) {
         // eslint-disable-next-line no-console
         console.error(
-          `ERROR: Failed Shodan request with HTTP status code ${res.status} (${res.statusText})`
+          `ERROR: Failed Shodan request with HTTP status code ${res.status} (${res.statusText})`,
         );
         process.exit(1);
       }
@@ -38,7 +38,7 @@ fetch(
       // eslint-disable-next-line no-console
       console.error(`ERROR: Failed Shodan request (${err})`);
       process.exit(1);
-    }
+    },
   )
   .then((json: Record<string, unknown>) => {
     const data = (json.data ?? []) as Record<string, unknown>[];

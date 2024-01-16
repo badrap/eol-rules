@@ -11,7 +11,7 @@ addFormats(ajv);
 
 const schemaPath = path.join(__dirname, "../schema/target.schema.json");
 const schemaJson = JSON.parse(
-  fs.readFileSync(schemaPath, { encoding: "utf-8" })
+  fs.readFileSync(schemaPath, { encoding: "utf-8" }),
 );
 const validate = ajv.compile(schemaJson);
 

@@ -35,7 +35,7 @@ export function* iterTargets(): Iterable<Target> {
 }
 
 export function validateTargetId(
-  id: string
+  id: string,
 ): { ok: true } | { ok: false; reason: string } {
   if (id.length < 1 || id.length > 32) {
     return {
@@ -102,13 +102,13 @@ export function match(banners: string[]): void {
 
         const b = magenta(
           `${format(banner.slice(0, index))}${magenta().inverse(
-            format(rule)
-          )}${format(banner.slice(index + rule.length))}`
+            format(rule),
+          )}${format(banner.slice(index + rule.length))}`,
         );
 
         // eslint-disable-next-line no-console
         console.log(
-          white(`${gray("-")} Rule "${magenta(format(rule))}" matches "${b}"`)
+          white(`${gray("-")} Rule "${magenta(format(rule))}" matches "${b}"`),
         );
       }
     });
