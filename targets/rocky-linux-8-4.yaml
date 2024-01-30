@@ -1,4 +1,4 @@
-name: Rocky Linux 8.4 or 8.3
+name: Rocky Linux 8.3 or 8.4
 eol: 2021-11-15
 info: https://wiki.rockylinux.org/rocky/version/
 rules:
