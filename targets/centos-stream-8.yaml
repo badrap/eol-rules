@@ -1,0 +1,5 @@
+name: CentOS Stream 8
+eol: 2024-05-31
+info: https://wiki.centos.org/About(2f)Product.html
+rules:
+  - Apache/2.4.37 (CentOS)
