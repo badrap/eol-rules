@@ -1,0 +1,5 @@
+name: Debian Buster (Unless ELTS)
+eol: 2024-06-30
+info: https://wiki.debian.org/DebianReleases
+rules:
+  - SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10

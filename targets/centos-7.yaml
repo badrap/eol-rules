@@ -1,0 +1,5 @@
+name: CentOS 7
+eol: 2024-06-30
+info: https://wiki.centos.org/About(2f)Product.html
+rules:
+  - Apache/2.4.6 (CentOS)
