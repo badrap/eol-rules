@@ -50,3 +50,7 @@ npm -s run try:banner 'Apache/2.2.22 (Debian)'
 ```sh
 SHODAN_API_KEY='*****************' npm -s run try:shodan 192.168.0.0
 ```
+
+## License
+
+Licensed under the MIT license. See [LICENSE](./LICENSE)

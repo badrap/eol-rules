@@ -1,6 +1,11 @@
 {
   "name": "eol-rules",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badrap/eol-rules.git"
+  },
+  "license": "MIT",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore --max-warnings 0 --ext=.js,.ts .",
     "typecheck": "tsc --skipLibCheck --noEmit",
