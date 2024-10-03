@@ -1,0 +1,5 @@
+name: Red Hat Enterprise Linux 6
+eol: 2024-06-30
+info: https://endoflife.date/rhel
+rules:
+  - Apache/2.2.15 (Red Hat)
