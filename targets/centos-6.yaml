@@ -1,6 +1,6 @@
-name: Centos 6
+name: CentOS 6
 eol: 2020-11-30
-info: https://phoenixnap.com/kb/centos-6-eol
+info: https://endoflife.date/centos
 rules:
   - SSH-2.0-OpenSSH_5.3
-  - Apache/2.2.15
+  - Apache/2.2.15 (CentOS)
