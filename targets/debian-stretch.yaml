@@ -1,6 +1,7 @@
 name: Debian Stretch (Unless ELTS)
-eol: 2022-06-30
+eol: 2022-07-01
 info: https://wiki.debian.org/DebianReleases
 rules:
   - SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9
   - SSH-2.0-OpenSSH_7.4p1 Debian
+  - Apache/2.4.25 (Debian)
