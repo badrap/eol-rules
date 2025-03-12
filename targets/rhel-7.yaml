@@ -1,0 +1,5 @@
+name: Red Hat Enterprise Linux 7 (Unless ELS)
+eol: 2024-06-30
+info: https://endoflife.date/rhel
+rules:
+  - Apache/2.4.6 (Red Hat Enterprise Linux)
