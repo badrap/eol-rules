@@ -1,0 +1,5 @@
+name: Ubuntu Bionic (unless ESM)
+eol: 2023-05-31
+info: https://wiki.ubuntu.com/Releases
+rules:
+  - Apache/2.4.29 (Ubuntu)
