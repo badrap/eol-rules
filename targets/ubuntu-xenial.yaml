@@ -1,0 +1,5 @@
+name: Ubuntu Xenial (unless ESM)
+eol: 2021-04-02
+info: https://wiki.ubuntu.com/Releases
+rules:
+  - Apache/2.4.18 (Ubuntu)
