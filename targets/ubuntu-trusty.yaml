@@ -1,4 +1,4 @@
-name: Ubuntu Trusty
+name: Ubuntu Trusty (unless ESM)
 eol: 2019-04-02
 info: https://wiki.ubuntu.com/Releases
 rules:
