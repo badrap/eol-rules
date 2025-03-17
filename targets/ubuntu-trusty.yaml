@@ -1,0 +1,5 @@
+name: Ubuntu Trusty
+eol: 2019-04-02
+info: https://wiki.ubuntu.com/Releases
+rules:
+  - Apache/2.4.7 (Ubuntu)

@@ -1,0 +1,5 @@
+name: Red Hat Enterprise Linux 5
+eol: 2017-03-31
+info: https://endoflife.date/rhel
+rules:
+  - Apache/2.2.3 (Red Hat)
