@@ -1,5 +1,0 @@
-name: Ubuntu Focal (unless ESM)
-eol: 2025-05-31
-info: https://wiki.ubuntu.com/Releases
-rules:
-  - Apache/2.4.41 (Ubuntu)
